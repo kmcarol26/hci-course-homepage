@@ -168,22 +168,23 @@ class ProjectIdeas extends Component {
                         <ProjectDesc text={proj2_adv_p5}/>
                         <ProjectDesc text={proj2_adv_p6}/>
                     </Collapsible>
+                        <Collapsible trigger="See UI Sketches">
+                            <div class="row">
+                                <div class="column">
+
+                                    <img src={window.location.origin + '/TA-1.jpeg'} width="400" height="500"></img>
+                                </div>
+
+
+                                <div class="column">
+                                    <img src={window.location.origin + '/TA-2.jpeg'} width="400" height="500"></img>
+                                </div>
+                            </div>
+
+                        </Collapsible>
                 </Collapsible>
                     <br/>
-                    <Collapsible trigger="See UI Sketches">
-                        <div class="row">
-                            <div class="column">
 
-                        <img src={window.location.origin + '/TA-1.jpeg'} width="400" height="500"></img>
-                            </div>
-
-
-                            <div class="column">
-                        <img src={window.location.origin + '/TA-2.jpeg'} width="400" height="500"></img>
-                            </div>
-                        </div>
-
-                    </Collapsible>
             </div>
                 <br/>
 

@@ -3,15 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 import ProjectIdeas from "./ProjectIdeas";
 
-// class Router extends React.Component{}
-// render(
-// return(
-//     <BrowserRouter>
-//     <Route path="/assignment1"component={ProjectIdeas}/>
-// </BrowserRouter>
-// // document.getElementById('root')
-// );
-
 class App extends Component {
     state = {
         response: ''
@@ -34,11 +25,12 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          {/*<img src={logo} className="App-logo" alt="logo" />*/}
+            <img src={window.location.origin + '/hci.jpg'} width="200" height="100"></img>
           <h1 className="App-title">Human Computer Interaction Course Homepage</h1>
         </header>
         <p className="App-intro">
-This is the Homepage for CD 5430 (Human Computer Interaction)        </p>
+This is Monisha Karise's Homepage for CD 5430 (Human Computer Interaction)        </p>
       <ProjectIdeas/>
       </div>
 
